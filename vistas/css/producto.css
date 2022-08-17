@@ -1,0 +1,43 @@
+.card-body{
+    display: flex;
+    min-height: 1px;
+    padding: 1.25rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container2{                             
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border: cornflowerblue;
+    border-radius: 5px;
+    border-style: solid;
+    flex-direction: row-reverse;
+    align-content: center;
+    
+}
+.campImg{                                
+    width: 200px;
+    height: 200px;
+    margin: 52px auto 40px;
+    border-radius: 15px;
+    display: flex;
+}
+#img-imagen{                             
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+.file{                                   /*Diseño de el input typo file*/
+    display: none;
+}
+
+
+

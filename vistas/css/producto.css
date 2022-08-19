@@ -38,6 +38,63 @@
 .file{                                   /*Diseño de el input typo file*/
     display: none;
 }
+/* errore */
+
+.negacion{  
+    position: relative;
+}
+.error{
+    font-size: 12px;
+	margin-bottom: 0;
+	visibility: hidden;
+}
+.error-activo{
+    visibility: visible;
+}
+.iconoDeError{
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 1;
+}   
+#mensajeDeError{
+    height:50px;
+    line-height: 45px;
+    background-color: red;
+    color: white;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+#mesajeDeError-activo{
+    display: block;
+}
+#menERR{
+    margin-bottom: 6px;
+}
+.form-groun-correcto .iconoDeError{
+    color: #1ed12d;
+    opacity: 1;
+}
+.form-groun-correcto .form-control{
+    border: 2px solid #0fef29 ;
+}
+.form-groun-correcto .subtitulos{
+    font-size: 17px;
+
+}
+.form-groun-incorrecto .subtitulos{
+    color: #bb2929;
+}
+.form-groun-incorrecto .iconoDeError{
+    color: #bb2929;
+    opacity: 1;
+}
+.form-groun-incorrecto .form-control{
+    border: 2px solid #bb2929;
+}
 
 
 

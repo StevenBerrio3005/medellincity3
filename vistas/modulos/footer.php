@@ -26,6 +26,10 @@
  <script src="vistas/js/bootstrap.min.js"></script>
  <script src="vistas/js/producto.js"></script>
  <script src="vistas/js/usuarios.js"></script>
+ <script src="vistas/js/validacionesU.js"></script>
+ <script src="vistas/js/validacion.js"></script>
+ <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
 
  <!-----------dataTable css--------- -->
  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>

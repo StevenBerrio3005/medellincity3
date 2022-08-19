@@ -153,7 +153,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="#"><i class="fas fa-user-cog"></i> Mi Perfil</a></li>
             <li><a class="dropdown-item" href="#"><i class="fas fa-shopping-basket"></i> Mis Compras</a></li>
-            <li><a class="dropdown-item" href=""><i class="fas fa-user-times"></i> Cerrar Sesion</a></li>
+            <li><a class="dropdown-item" href="vistas/modulos/unload.php"><i class="fas fa-user-times"></i> Cerrar Sesion</a></li>
           </ul>
         </li>
       </ul>

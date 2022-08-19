@@ -24,28 +24,49 @@ require_once "vistas/modulos/header.php";
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
-                <form method="post" autocomplete="off" name="formulario" id="formulario" enctype="multipart/form-data">
+                <form method="post" name="formulario" id="formulario" enctype="multipart/form-data">
                     <div class="card-body">
 
-                        <div class="form-group col-md-6">
-                            <label for="txtNombre">Nombre</label>
-                            <input type="txt" class="form-control" id="txtNombre" name="txtNombre" placeholder="Nombre">
+                        <div class="form-group col-md-6" id="grupoNombre">
+                            <div class="negacion">
+                                <label for="txtNombre">Nombre</label>
+                                <input type="txt" class="form-control" id="txtNombre" name="txtNombre" placeholder="Nombre">
+                                <i class=" iconoDeError fas fa-angry"></i>
+                            </div>
+                            <p class="error">El nombre tiene que ser de 1 a 40 dígitos y no puede contener numeros ni caracteres especiales</p>
+
+
                         </div>
                         <div class="form-group col-md-6">
                             <label for="exampleInputPassword1">Descripcion</label>
                             <textarea name="txtDescripcion" id="txtDescripcion" name="txtDescripcion" cols="30" rows="2" class="form-control" placeholder=" descripcion del producto"></textarea>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="txTalla">Talla</label>
-                            <input type="txt" class="form-control" id="txtTalla" name="txtTalla" placeholder="Talla">
+                        <div class="form-group col-md-6" id="grupoTalla">
+                            <div class="negacion">
+                                <label for="txTalla">Talla</label>
+                                <input type="txt" class="form-control" id="txtTalla" name="txtTalla" placeholder="Talla">
+                                <i class="iconoDeError fas fa-angry"></i>
+                            </div>
+                            <p class="error">la talla debe de tener de 1 a 3 carateres</p>
+
+
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="txtValor">Valor</label>
-                            <input type="txt" class="form-control" id="txtValor" name="txtValor" placeholder="Valor">
+                        <div class="form-group col-md-6" id="grupoValor">
+                            <div class="negacion">
+                                <label for="txtValor">Valor</label>
+                                <input type="txt" class="form-control" id="txtValor" name="txtValor" placeholder="Valor">
+                                <i class=" iconoDeError fas fa-angry"></i>
+                            </div>
+                            <p class="error">El valor solo pude tener numeros</p>
                         </div>
-                        <div class="form-group col-md-6">
-                            <label for="txtCantidad">Cantidad</label>
-                            <input type="txt" class="form-control" id="txtCantidad" name="txtCantidad" placeholder="Cantidad">
+                        <div class="form-group col-md-6" id="grupoCantidad">
+                            <div class="negacion">
+                                <label for="txtCantidad">Cantidad</label>
+                                <input type="txt" class="form-control" id="txtCantidad" name="txtCantidad" placeholder="Cantidad">
+                                <i class=" iconoDeError fas fa-angry"></i>
+                            </div>
+                            <p class="error">La cantidad solo pude tener numeros</p>
+
                         </div>
 
                         <div class="container2">
@@ -88,6 +109,6 @@ require_once "vistas/modulos/header.php";
 
 </section>
 <?php
-    require_once "vistas/modulos/footer.php";
+require_once "vistas/modulos/footer.php";
 
 ?>

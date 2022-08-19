@@ -21,9 +21,9 @@
                     confirmButtonText: 'Ok!'
                   }).then((result) => {
                     if (result.isConfirmed) {
-                        window.location='index.php?ruta=usuario';
+                        window.location='index.php?ruta=tablaUsarios';
                     }else{
-                        window.location='index.php?ruta=usuario';
+                        window.location='index.php?ruta=tablaUsarios';
                     }
                   })
                 </script>

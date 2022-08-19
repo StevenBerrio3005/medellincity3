@@ -1,12 +1,12 @@
-const formularios = document.getElementById('formulario');
-const inputs = document.querySelectorAll('#formulario input');
+/* const formularios2 = document.getElementById('formulario');
+const inputs2 = document.querySelectorAll('#formulario input');
 const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
     talla: /^[a-zA-ZÀ-ÿ\s]{1,3}$/, // Letras y espacios, pueden llevar acentos.
     valor: /^\d{3,14}$/,// 7 a 14 numeros.
     cantidad: /^\d{3,14}$/,// 7 a 14 numeros.
 }
-/* const campos = {
+const campos = {
     Nombre: false,
     Talla: false,
     Valor:false,
@@ -73,4 +73,4 @@ formularios.addEventListener('submit', (e) => {
 
         })
     }
-})  */
+})  */ 

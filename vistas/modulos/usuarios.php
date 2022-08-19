@@ -41,7 +41,7 @@ require_once "vistas/modulos/header.php";
                         <div class="form-group col-md-6" id="grupoContraseña">
                             <div class="negacion">
                                 <label>Contraseña</label>
-                                <input type="password" class="form-control" id="txtContraseña" autocomplete="off" name="txtContraseña" placeholder="Contraseña">
+                                <input type="txt" class="form-control" id="txtContraseña" autocomplete="off" name="txtContraseña" placeholder="Contraseña">
                                 <i class=" iconoDeError fas fa-angry"></i>
 
                             </div>

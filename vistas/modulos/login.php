@@ -56,7 +56,6 @@
       </form>
       <?php
         if(isset($_POST["user"])) {
-          echo"hola";
           $user = $_POST["user"];
           $pass = $_POST["pass"];
           $objCon = new ConexionController();

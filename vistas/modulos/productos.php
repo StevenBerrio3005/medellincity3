@@ -124,6 +124,7 @@ const campos = {
     Cantidad: false
 }
 
+
 const validarFormulario = (e) => {
     switch (e.target.name) {
         case "txtNombre":
@@ -166,8 +167,8 @@ inputs2.forEach((input) => {
 })
 formularios2.addEventListener('submit', (e) => {
     e.preventDefault();
-    if ( campos.Nombre&& campos.Talla&& campos.Valo&& campos.Cantidad ) {
-        formularios.submit();
+    if ( campos.Nombre && campos.Talla && campos.Valor && campos.Cantidad ) {
+        formularios2.submit();
     }else {
         Swal.fire({
             title: 'erro r!',

@@ -3,7 +3,7 @@
     class ControllerUsuario{
                         /* funcion para insertar el usuario */
         public function crtInsertarUsuario($usuario,$contraseña,$nombre,$apellido,$cedula,$correo,$celular,$rol){
-
+            $contraseña= md5($contraseña,false);
             $objDtoUsuario = new Usuario(null,$usuario,$contraseña,$nombre,$apellido,$cedula,$correo,$celular,$rol);
             $objDaoUsuario = new ModelUsuario($objDtoUsuario);
             if ($objDaoUsuario -> mldInsertarUsuario()){
